@@ -12,3 +12,9 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+void MainWindow::on_LaskeButton_clicked()
+{
+    ui->tabWidget->setCurrentIndex(1);
+}
+
